@@ -23,6 +23,8 @@ namespace ChronoTrack
 		public MainWindow()
 		{
 			InitializeComponent();
+
+			
 		}
 	}
 }

@@ -1,0 +1,1 @@
+robocopy "C:\Users\Fatir\Documents\google drive\projects\desktop apps\chronotrack" "C:\Users\Fatir\Documents\Projects\Desktop Apps\ChronoTrack" README.md

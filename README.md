@@ -35,7 +35,7 @@ Time Estimate:
 
 Time Estimate: 
 
-[Timing Techniques setup](#)
+[Timing Techniques setup](#timing-techniques)
 [Other productivity timing default setups](#)
 [Extensible alert/setup for custom scheduling](#)
 
@@ -68,7 +68,7 @@ Time Estimate:
 Time Estimate: 
 
 [README](#readme)
-[User manual/documentation for use](#)
+[User manual/documentation for use](#manual)
 [Code documentation and cleanup](#)
 [License](#license)
 

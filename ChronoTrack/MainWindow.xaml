@@ -11,7 +11,8 @@
         </Grid.RowDefinitions>
 
         <!-- Main Start/ Stop Button -->
-        <Button x:Name="btn_StartStop" Content="Start" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderThickness="0" BorderBrush="{x:Null}" Background="#FF2ECC71" FontSize="48" FontFamily="Calibri"/>
+        <Button x:Name="btn_Start" Content="Start" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderThickness="0" BorderBrush="{x:Null}" Background="#FF2ECC71" FontSize="48" FontFamily="Calibri"/>
+        <Button x:Name="btn_Stop" Content="Stop" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderThickness="0" BorderBrush="{x:Null}" Background="#FFE74C3C" FontSize="48" FontFamily="Calibri"/>
 
         <!-- Menubar -->
         <Menu Grid.Row ="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FFF3F3F3">

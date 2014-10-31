@@ -26,6 +26,10 @@
             <MenuItem Header="_Edit">
                 <MenuItem Header="_Mark Inactive Task as Active"/>
                 <MenuItem Header="_Unmark Active Task as Inactive"/>
+                <MenuItem Header="New _Category"/>
+                <MenuItem Header="New _Task"/>
+                <MenuItem Header="Start"/>
+                <MenuItem Header="Stop"/>
                 <Separator/>
                 <MenuItem Header="_Project Settings"/>
                 <MenuItem Header="_Options"/>

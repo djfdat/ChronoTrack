@@ -12,7 +12,7 @@
 
         <!-- Main Start/ Stop Button -->
         <Button x:Name="btn_Start" Content="Start" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderThickness="0" BorderBrush="{x:Null}" Background="#FF2ECC71" FontSize="48" FontFamily="Calibri"/>
-        <Button x:Name="btn_Stop" Content="Stop" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderThickness="0" BorderBrush="{x:Null}" Background="#FFE74C3C" FontSize="48" FontFamily="Calibri"/>
+        <Button x:Name="btn_Stop" Content="Stop" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderThickness="0" BorderBrush="{x:Null}" Background="#FFC0392B" FontSize="48" FontFamily="Calibri" Visibility="Hidden"/>
 
         <!-- Menubar -->
         <Menu Grid.Row ="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FFF3F3F3">
@@ -65,8 +65,8 @@
                     <RowDefinition Height="20"/>
                     <RowDefinition Height="9*"/>
                 </Grid.RowDefinitions>
-                <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Inactive Tasks" VerticalAlignment="Bottom" Grid.Column="1" Width="Auto" FontFamily="Calibri" FontSize="16" TextAlignment="Center" Grid.Row="0" Margin="0,0,10,0" Foreground="#FF2C3E50"/>
-                <ListBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Grid.Row="1" Margin="0,0,10,10" BorderBrush="#FF2C3E50"/>
+                <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Inactive Tasks" VerticalAlignment="Bottom" Grid.Column="1" Width="Auto" FontFamily="Calibri" FontSize="16" TextAlignment="Center" Grid.Row="0" Margin="0,0,10,0" Foreground="#FF34495E"/>
+                <ListBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Grid.Row="1" Margin="0,0,10,10" BorderBrush="#FFBDC3C7"/>
             </Grid>
 
             <!-- Housing buttons to mark/unmark tasks as active -->
@@ -88,8 +88,8 @@
                     <RowDefinition Height="20"/>
                     <RowDefinition Height="9*"/>
                 </Grid.RowDefinitions>
-                <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Active Tasks" VerticalAlignment="Bottom" Grid.Column="1" Width="Auto" FontFamily="Calibri" FontSize="16" TextAlignment="Center" Grid.Row="0" Margin="10,0,0,0" Foreground="#FF2C3E50"/>
-                <ListBox x:Name="lst_ActiveTasks" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Grid.Row="1" Margin="10,0,0,10" BorderBrush="#FF2C3E50"/>
+                <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Active Tasks" VerticalAlignment="Bottom" Grid.Column="1" Width="Auto" FontFamily="Calibri" FontSize="16" TextAlignment="Center" Grid.Row="0" Margin="10,0,0,0" Foreground="#FF34495E"/>
+                <ListBox x:Name="lst_ActiveTasks" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Grid.Row="1" Margin="10,0,0,10" BorderBrush="#FFBDC3C7"/>
             </Grid>
         </Grid>
     </Grid>

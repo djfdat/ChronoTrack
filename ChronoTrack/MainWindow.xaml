@@ -5,59 +5,60 @@
     <Grid>
         <!-- Rough Grid for overall layout -->
         <Grid.RowDefinitions>
-            <RowDefinition Height="20" />
-            <RowDefinition Height="379*" />
-            <RowDefinition Height="80" />
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="379*"/>
+            <RowDefinition Height="80"/>
         </Grid.RowDefinitions>
 
-        <!-- Main Start / Stop Button -->
+        <!-- Main Start/ Stop Button -->
         <Button x:Name="btn_StartStop" Content="Start" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderThickness="0" BorderBrush="{x:Null}" Background="#FF2ECC71" FontSize="48" FontFamily="Calibri"/>
 
         <!-- Menubar -->
         <Menu Grid.Row ="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FFF3F3F3">
             <MenuItem Header="_File">
-                <MenuItem Header="_New Project" />
-                <MenuItem Header="_Open Project" />
-                <MenuItem Header="_Save Project" />
-                <MenuItem Header="Save Project _As" />
-                <Separator />
-                <MenuItem Header="_Exit" />
+                <MenuItem Header="_New Project"/>
+                <MenuItem Header="_Open Project"/>
+                <MenuItem Header="_Save Project"/>
+                <MenuItem Header="Save Project _As"/>
+                <Separator/>
+                <MenuItem Header="_Exit"/>
             </MenuItem>
             <MenuItem Header="_Edit">
-                <MenuItem Header="_Mark Inactive Task as Active" />
-                <MenuItem Header="_Unmark Active Task as Inactive" />
-                <Separator />
-                <MenuItem Header="_Project Settings" />
-                <MenuItem Header="_Options" />
+                <MenuItem Header="_Mark Inactive Task as Active"/>
+                <MenuItem Header="_Unmark Active Task as Inactive"/>
+                <Separator/>
+                <MenuItem Header="_Project Settings"/>
+                <MenuItem Header="_Options"/>
             </MenuItem>
             <MenuItem Header="_View">
-                <MenuItem Header="_New Project" />
+                <MenuItem Header="_Tasks"/>
+                <MenuItem Header="_Charts"/>
             </MenuItem>
             <MenuItem Header="_Help">
-                <MenuItem Header="ChronoTrack on _Github" />
-                <MenuItem Header="_License" />
-                <MenuItem Header="_Help" />
-                <Separator />
-                <MenuItem Header="_Report an Issue" />
-                <MenuItem Header="_Report an Issue" />
+                <MenuItem Header="ChronoTrack on _Github"/>
+                <MenuItem Header="_License"/>
+                <MenuItem Header="_Help"/>
+                <Separator/>
+                <MenuItem Header="_Report an Issue"/>
+                <MenuItem Header="_Report an Issue"/>
             </MenuItem>
         </Menu>
 
         <!-- Main column setup for task area -->
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="10" />
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="48" />
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="48"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="10"/>
             </Grid.ColumnDefinitions>
 
             <!-- Inactive Tasks -->
             <Grid Grid.Column="1">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="20" />
-                    <RowDefinition Height="9*" />
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="9*"/>
                 </Grid.RowDefinitions>
                 <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Inactive Tasks" VerticalAlignment="Bottom" Grid.Column="1" Width="Auto" FontFamily="Calibri" FontSize="16" TextAlignment="Center" Grid.Row="0" Margin="0,0,10,0" Foreground="#FF2C3E50"/>
                 <ListBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Grid.Row="1" Margin="0,0,10,10" BorderBrush="#FF2C3E50"/>
@@ -66,11 +67,11 @@
             <!-- Housing buttons to mark/unmark tasks as active -->
             <Grid Grid.Column="2">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="20*" />
-                    <RowDefinition Height="8*" />
-                    <RowDefinition x:Name="lst_InactiveTasks" Height="4*" />
-                    <RowDefinition Height="8*" />
-                    <RowDefinition Height="20*" />
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="8*"/>
+                    <RowDefinition x:Name="lst_InactiveTasks" Height="4*"/>
+                    <RowDefinition Height="8*"/>
+                    <RowDefinition Height="20*"/>
                 </Grid.RowDefinitions>
                 <Button x:Name="btn_MarkSelectedInactiveTasksAsActive" Content="-&gt;" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Width="42" Height="34" Background="#FF3498DB" BorderBrush="{x:Null}"/>
                 <Button x:Name="btn_MarkSelectedActiveTasksAsInactive" Content="&lt;-" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Width="42" Height="34" BorderBrush="{x:Null}" Background="#FFE67E22"/>
@@ -79,8 +80,8 @@
             <!-- Active Tasks -->
             <Grid Grid.Column="3">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="20" />
-                    <RowDefinition Height="9*" />
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="9*"/>
                 </Grid.RowDefinitions>
                 <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Active Tasks" VerticalAlignment="Bottom" Grid.Column="1" Width="Auto" FontFamily="Calibri" FontSize="16" TextAlignment="Center" Grid.Row="0" Margin="10,0,0,0" Foreground="#FF2C3E50"/>
                 <ListBox x:Name="lst_ActiveTasks" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Grid.Row="1" Margin="10,0,0,10" BorderBrush="#FF2C3E50"/>

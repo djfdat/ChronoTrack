@@ -15,11 +15,17 @@ ChronoTrack is a desktop application written in C# using the .Net Framework. It 
 Time Estimate: 
 
 [Tasks](#tasks)
+
 [Categories](#categories)
+
 [Sessions](#sessions)
+
 [Menubar](#menubar)
+
 [Saving](#saving-a-project)
+
 [Loading](#loading-a-project)
+
 [Auto-save](#auto-save)
 
 ###Version 0.2
@@ -27,8 +33,11 @@ Time Estimate:
 Time Estimate: 
 
 [Task Groups](#tassk-groups)
+
 [Break alerts](#break-alerts)
+
 [Active task alerts](#active-task-alerts)
+
 [Settings](#settings)
 
 ###Version 0.3
@@ -36,7 +45,9 @@ Time Estimate:
 Time Estimate: 
 
 [Timing Techniques setup](#timing-techniques)
+
 [Other productivity timing default setups](#)
+
 [Extensible alert/setup for custom scheduling](#)
 
 ###Version 0.4
@@ -68,8 +79,11 @@ Time Estimate:
 Time Estimate: 
 
 [README](#readme)
+
 [User manual/documentation for use](#manual)
+
 [Code documentation and cleanup](#)
+
 [License](#license)
 
 ##Features

@@ -1,5 +1,8 @@
 # Design Document - ChronoTrack
 
+## Current Status
+Abandoned.
+
 ## High Concept
 
 ChronoTrack is a desktop application written in C# using the .Net Framework. It strives to provide a simple and accurate method of keeping time of tasks as week as promoting productivity by optionally following the Pomodoro technique.

@@ -1,7 +1,7 @@
 # Design Document - ChronoTrack
 
 ## Current Status
-Abandoned.
+Abandoned. Found alternative software and no longer needed this functionality set.
 
 ## High Concept
 

@@ -115,7 +115,7 @@ Time Estimate:
 
 Tasks will be a database table of the Task object type. Each task will have a unique id and name, as well as a possible reference to a parent category.
 
-###  Active Tasks
+####  Active Tasks
 
 Time Estimate:
 
@@ -177,13 +177,13 @@ Time Estimate:
 Program Settings should be saved in the user directory as an .ini or .json file.
 Project Settings should be saved in the user directory in a database.
 
-### Creating a new project
+#### Creating a new project
 
 Time Estimate:
 
 Users should be able to create a new project.
 
-### Saving a project
+#### Saving a project
 
 Time Estimate:
 
@@ -195,13 +195,13 @@ Time Estimate:
 
 Users should be able to save a project to disk as a new project file.
 
-### Opening a project
+#### Opening a project
 
 Time Estimate:
 
 Users should be able to load a previously saved project.
 
-### Auto-Save
+#### Auto-Save
 
 Time Estimate:
 
@@ -211,32 +211,32 @@ Users should be able to enable Auto-Save on a project. This will actively fold t
 
 Time Estimate:
 
-### Alerts
+#### Alerts
 
 Time Estimate:
 
 Alerts are pop up windows that have settings to appear on top or under and only blink orange in the taskbar.
 
-### Break Alerts
+#### Break Alerts
 
 Time Estimate:
 
 Break alerts appear according to your timing technique and remind you to take a quick break. Extra features on this could include sending an alert or text after a certain amount of time to tell you when break time is over.
 
-### Active Task Alerts
+#### Active Task Alerts
 
 Time Estimate:
 
 The active task alert appears occasionally to make sure you are actually working on the active tasks.
 
-### Timing Techniques
+#### Timing Techniques
 
 Time Estimate:
 
 Timing techniques such as Pomodoro should be included by default. Users should be able to create custom timing techniques as well as import and export.
 Research: https://en.wikipedia.org/wiki/Pomodoro_Technique
 
-### Web service integration for projects
+#### Web service integration for projects
 
 Time Estimate:
 
@@ -244,7 +244,7 @@ This should provide the functionality of syncing the document to a web service. 
 Google Docs
 Research: https://developers.google.com/drive/
 
-### Web service integration for tasks
+#### Web service integration for tasks
 
 Time Estimate:
 
@@ -258,7 +258,7 @@ GitHub Issues
 Research: https://trello.com/docs/
 Research: https://developer.github.com/v3/issues/
 
-### License
+#### License
 
 Time Estimate:
 
@@ -266,7 +266,7 @@ Need to lookup licenses, open source, free for personal use/commercial use, cann
 
 Research: http://choosealicense.com/
 
-### Chart View
+#### Chart View
 
 Time Estimate:
 
@@ -329,8 +329,3 @@ Int categoryId
 DateTime startTime
 
 DateTime endTime
-
-
-
-
-
